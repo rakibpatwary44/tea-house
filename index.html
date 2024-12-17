@@ -37,20 +37,22 @@
 </head>
 <body class="font-manrope">
      <header class="container mx-auto">
-          <div class="hero ">
-               <div class="hero-content flex-col lg:flex-row">
+          <div class="my-20 ">
+               <div class="flex justify-between items-center  flex-col lg:flex-row">
                  <div>
                    <h1 class="text-7xl font-extrabold">It's good <br> 
                     tea time at The <br> Tea House</h1>
                    <p class="py-6">
                     Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                    </p>
-                   <button class="btn btn-primary">Explore More</button>
+                   <button class="btn text-white bg-gradient-to-r from-orange-400 to-red-500">Explore More  
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                   </button>
                  </div>
                  <div>
                     <img
                     src="images/banner.png"
-                    class="max-w-sm rounded-lg " />
+                    class=" rounded-lg " />
                     <!-- rating badegs -->
                     <div class=" -mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-64  ">
                          <i class="fa-solid fa-star text-3xl text-amber-400"></i>
@@ -195,7 +197,7 @@
          <section class="my-24">
          <div class="text-center space-y-5 ">
           <h2 class=" font-extrabold text-5xl ">News & Events</h2>
-          <p class="text-[#777] px-64 pb-5 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          <p class="text-[#777] px-5  lg:px-64 pb-5 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
          </div>
         <!-- news section -->
          <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
@@ -231,8 +233,54 @@
           </div>
          </section>
      </main>
-     <footer>
-      
-     </footer>
+     <footer class="  bg-base-200 text-base-content px-2 lg:px-48 py-10">
+      <div class="flex justify-between my-24">
+        <img src="images/cup.png" alt="">
+        <p >
+          <span >Ready to get strated?</span>
+          <button class="btn text-white bg-gradient-to-r from-orange-400 to-red-500">Get Started</button>
+        </p>
+      </div>
+    <div  class="footer ">
+      <nav>
+        <h6 class="footer-title">Quick Links</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Our Service</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Help</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+      <form>
+        <h6 class="footer-title">Subscribe to our <br> newsletter</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label>
+          <div class="relative">
+            <input
+              type="text"
+              placeholder=" Eamil Address"
+              class="py-4  bg-transparent border-b-2 border-black outline-none" />
+            <button class="btn bg-gradient-to-r from-orange-400 to-red-500 top-0 right-24 rounded-full absolute"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+      <aside class="mt-10 text-center">
+        <p>Copyright ©2025 - All right reserved by Rakib patwary</p>
+      </aside>
+    </footer>
 </body>
 </html>
